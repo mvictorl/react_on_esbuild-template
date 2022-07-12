@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // target build folder 
+    "outDir": "./build/",
+    // ANY deny
+    "noImplicitAny": true,
+    "module": "ESNext",
+    // bundle format (ecmascript 6 in this case)
+    "target": "es6",
+    "jsx": "react",
+    // JavaScript file processing allow
+    "allowJs": true,
+    // strict mode on
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    // required field for ESBuild
+    "isolatedModules": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
